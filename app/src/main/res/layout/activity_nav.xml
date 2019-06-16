@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/dinner">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="1000px"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="200dp">
+
+    <Button
+        android:id="@+id/Kbutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="开                台"
+        />
+
+    <Button
+        android:id="@+id/Dbutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="点                餐" />
+
+    <Button
+        android:id="@+id/Cbutton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="查    看    菜    单" />
+
+</LinearLayout>
+
+
+
+</LinearLayout >

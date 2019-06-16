@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doujiao"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="一、土豆成分：
+　　淀粉9～20%，蛋白质1.5～2.3%，脂肪0.1～1.1%，粗纤维0.6～0.8%。100g马铃薯中所含的营养成分：能量318千焦，钙5～8mg，磷15～40mg，铁0.4mg～0.8mg，钾200~340mg,碘0.8~1.2，胡萝卜素12~30mg，硫胺素0.03～0.08mg，核黄素0.01～0.04mg，尼克酸0.4～1.1mg 。
+　　                  二、营养价值：
+　　马铃薯块茎含有大量的淀粉。淀粉是食用马铃薯的主要能量来源。-一般早熟种马铃薯含有11%～14%的淀粉，中晚熟种含有14%～20%的淀粉，高淀粉品种的块茎可达25%以上。块茎还含有葡萄糖、果糖和蔗糖等"
+        android:id="@+id/jianjie"/>
+</LinearLayout>
